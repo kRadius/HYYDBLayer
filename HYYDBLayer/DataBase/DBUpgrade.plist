@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version1.0</key>
+	<array>
+		<string>ALTER TABLE `relation` ADD COLUMN patient_phone VARCHAR(30) default &quot;&quot;;</string>
+		<string>ALTER TABLE `relation` ADD COLUMN is_silent TINYINT default `0`;</string>
+	</array>
+	<key>Version1.1</key>
+	<array>
+		<string>ALTER TABLE `relation` ADD COLUMN age INTEGER;</string>
+		<string>ALTER TABLE `relation` ADD COLUMN gender TINYINT default `0`;</string>
+	</array>
+</dict>
+</plist>
